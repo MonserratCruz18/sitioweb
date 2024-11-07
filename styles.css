@@ -1,0 +1,145 @@
+/* Estilos para la imagen en la sección "¿Quiénes Somos?" */
+#quienes-somos img {
+    width: 50%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+    max-width: 500px; /* Limita el tamaño máximo de la imagen */
+    margin-top: 1rem; /* Espacio superior para separar la imagen del texto */
+    border-radius: 10px; /* Bordes redondeados para darle un estilo más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #FFCC00;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #e6b800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFCC00;
+    color: #333;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    width: 200px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#productos ul {
+    list-style-type: none;
+}
+
+#productos ul li {
+    margin: 0.5rem 0;
+}
+
+.galeria-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.galeria-fotos img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7rem 1.5rem;
+    background-color: #FFCC00;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Estilos generales para la navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
